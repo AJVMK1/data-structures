@@ -21,7 +21,6 @@ int main(void)
     }
     record->id = 2;
     record->value = 99.67;
-
     printf("heap record id=%d value=%.1f\n", record->id, record->value);
     free(record);
 
@@ -35,5 +34,6 @@ int main(void)
     printf("node value=%d\n", node->value);
     free(node);
 
+    //Its Done!!. Overall very similar to C++ put has its own unique elements to learn like the way printing works.
     return EXIT_SUCCESS;
 }
